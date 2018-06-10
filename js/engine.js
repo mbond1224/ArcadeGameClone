@@ -412,7 +412,7 @@ class Engine {
         
         if (gameover) {
             modal.querySelector('h2').innerHTML = 
-            `Ohh No! Bettle got ya <i class='fas fa-frown' aria-hidden='true'></i>`;
+            `Ohh No! Beetle got ya <i class='fas fa-frown' aria-hidden='true'></i>`;
             modal.querySelector('.winuser').src = this.allEnemies[0].getStripedObj().src;
         } else {
             modal.querySelector('h2').innerHTML =
