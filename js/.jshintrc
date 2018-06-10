@@ -1,0 +1,11 @@
+{
+    "esversion": 6,
+    "browser" : true,
+    "strict"  : true,
+    "globals" : {
+        "Engine": true,
+        "Resources": true,
+        "Enemy":true,
+        "Player":true
+      }
+}

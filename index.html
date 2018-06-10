@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arcade Game Clone</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Arcade Game clone</h1>
+        </header>
+        <section class="score-panel">
+           <i class="fas fa-coins score fa-2x">0</i>
+            <i class="fas fa-globe stage fa-2x">1-1</i>
+            <i class="fas fa-hourglass-start time fa-2x">00:00</i>
+            <i class="fas fa-heartbeat fa-2x"> 3</i>
+            <span class="tooltip">
+                <i class="fas fa-pause fa-2x"><span class="tooltiptextpause">Pause the game</span>
+                    <span class="tooltiptextstart"> resume the game</span>
+                </i>
+         </span>
+        </section>
+        <div id="winModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Congratulations You won
+                        <i class="far fa-thumbs-up fa-2x" aria-hidden="true"></i>
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <img class="winuser" src="">
+                    <p class="affirmation">Do you want to play again:
+                        <span class="restart">
+                            <i class="fas fa-play-circle fa-2x" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Thanks for playing the game</h3>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
